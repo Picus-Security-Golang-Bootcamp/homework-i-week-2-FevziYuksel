@@ -17,7 +17,7 @@ func main() {
 		return
 	}
 	wantedBook := strings.Join(args[2:], " ") //joins strings after  to a single string
-	if args[1] == "search" {                  //Searchs command search a single book and print its index
+	if args[1] == "search" {                  //Searches command search a single book and prints its index
 		for i, book := range books {
 			if book == wantedBook {
 				fmt.Printf("\n%s is in index : %d\n ", book, i)
