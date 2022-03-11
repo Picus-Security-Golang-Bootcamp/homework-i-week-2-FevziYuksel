@@ -2,7 +2,7 @@
 
 We have a list of books. This application has 2 tasks.
 1. To show all the books in the application as output.
-2. If the name of the book given as input is available, printing it on the screen; if not, printing a printout stating that the book does not exist.
+2. If the name of the book given as input is available, print it on the screen; if not, it suppose to show us the message "<bookName> is not found".
 
 ### list command
 ```
